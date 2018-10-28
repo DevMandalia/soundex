@@ -1,4 +1,4 @@
-# soundex
+# soundex.py
 
 Background: The Soundex algorithm is a phonetic algorithm commonly
 used by libraries and the Census Bureau to represent people’s names as they
@@ -27,3 +27,19 @@ Step 4: If there are more than 3 digits in the resulting output, then drop
 the extra ones.
 Step 5: If there are less than 3 digits, then pad at the end with the required
 number of trailing zeros.
+
+# french_count.py
+
+In the French language, Arabic numerals that we use in
+everyday can be spelled out just like they can in English. For example, the
+numeral 175 is written as one hundred seventy five in English and cent
+soixante quinze in French.
+french_count.py constructs an fst in nltk that can translate any given Arabic numeral
+into its corresponding French string. For the sake of convenience, you will
+only be given integer input less than 1000.
+ref: https://www.udemy.com/blog/french-numbers-1-1000/.
+
+# morphology.py
+
+implements an additional regular expression rule that
+will correctly handle c/ck alternations.
